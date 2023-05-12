@@ -361,6 +361,16 @@ input[type="submit"]:hover{
     margin: 10px 10px;
 }
 
+.button1{
+    padding: 0 35%;
+    margin: 15px 10px;
+}
+
+.button-reset1{
+    padding: 0 35%;
+    margin: 10px 10px;
+}
+
 input[type="reset"]{
     border: none;
     padding: 5px 10%;
