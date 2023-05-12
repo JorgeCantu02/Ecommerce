@@ -1,0 +1,133 @@
+<!--    -------------------       FORMATO FUENTE     ---------------------           -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!--    -------------------       ETIQUETAS META    ---------------------           -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="tiende ecomerce de tenis">
+    <meta name="keywords" content="tenis, sneakers, jordan, adidas, yeezy, new balance, nike, dunk, sb dunk, the hype company, thc">
+    <meta name="author" content="Jorge Cantu, Alberto Davila, Victor Espinosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    -------------------       TITULO     ---------------------           -->
+
+    <title>The Hype Company</title>
+
+    <!--    -------------------       LINKS Y FONTS    ---------------------           -->
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="/dist/sweetalert.css">
+    <link rel="shortcut icon" type="image/png" href="imgs/logo blanco.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taprom&display=swap" rel="stylesheet">
+
+    <!--    -------------------      JAVASCRIPT     ---------------------           -->
+
+    <script type="text/javascript" src="registro&sesion.js"></script>
+    <script src="/dist/sweetalert-dev.js"></script>
+    <script src="/dist/sweetalert.min.js"></script>
+
+    <!--    -------------------      ICONOS     ---------------------           -->
+    <script src="https://kit.fontawesome.com/628af34195.js" crossorigin="anonymous"></script>
+</head>
+
+    <!--    -------------------       BODY     ---------------------           -->
+
+<body>
+
+    <!--    -------------------       HEADER CON LOGO    ---------------------           -->
+
+    <header>
+        <div id="inicio">
+            <a href="sesion.html"><img src="imgs/logo negro.png" alt="logo de la marca"></a>
+        </div>
+    </header>
+
+
+    <!--    -------------------       FORMULARIO DE REGISTRO    ---------------------           -->
+
+    <div class="form">
+        <form action="">
+            <h2>REGÍSTRATE AQUÍ</h2><br>
+            <label for=""><b>USUARIO</b></label><br>
+            <input type="text" name="usuario" id="usuario1" placeholder="Ingresa tu nuevo usuario" required>
+            <br><br>
+            <label for=""><b>CONTRASEÑA</b></label><br>
+            <input type="password" name="contrasena" id="contrasena1" placeholder="Ingresa tu nueva contraseña" required><br>
+            
+            <div class="btnregistro">
+                <input type="button" value="Enviar Registro" onclick="registro();">
+            </div>
+        </form>
+
+
+    <!--    -------------------       FORMULARIO DE INICIO DE SESION   ---------------------           -->
+
+        <form action="">
+            <h2>INICIA SESIÓN AQUÍ</h2><br>
+            <label for=""><b>USUARIO</b></label><br>
+            <input type="text" name="usuario" id="usuario2" placeholder="Ingresa tu usuario" required>
+            <br><br>
+            <label for=""><b>CONTRASEÑA</b></label><br>
+            <input type="password" name="contrasena" id="contrasena2" placeholder="Ingresa tu contraseña" required><br>
+            
+            <div class="btniniciar">
+                <input type="button" value="Iniciar Sesión" onclick="inicioSesion();">
+            </div>
+        </form>
+    </div>
+
+
+    <!--    -------------------       FOOTER     ---------------------           -->
+
+<footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="elemento">
+                <figure>
+                    <a href="#inicio"><img src="imgs/logo blanco.png" alt="logo de la marca"></a>
+                </figure>
+            </div>
+
+            <div class="elemento">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Tienda online de venta exclusiva de sneakers, ropa y accesorios.</p>
+                <p>Todos los productos publicados son nuevos y legitimos.</p>
+            </div>
+            
+            <div class="elemento">
+                <h2>UBICACIÓN</h2>
+                <address>
+                    Ramiro II 3318, 
+                    Camino Real, C.P. 67170,
+                    Guadalupe Nuevo Leon.
+                </address>
+            </div>
+            
+            <div class="elemento">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/thypecompany/" target="blank" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.tiktok.com/@thypecompany?is_from_webapp=1&sender_device=pc" target="blank" class="fa-brands fa-tiktok"></a>
+                    <a href="https://www.facebook.com/TheHypeSneakers" target="blank" class="fa-brands fa-facebook-f"></a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="grupo2">
+            <small>&copy; 2023 <b>The Hype Company</b> - Todos los derechos reservados.</small>
+        </div>
+        
+    </footer>
+
+
+</body>
+</html>

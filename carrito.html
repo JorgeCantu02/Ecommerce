@@ -1,0 +1,182 @@
+<!--    -------------------       FORMATO FUENTE     ---------------------           -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!--    -------------------       ETIQUETAS META    ---------------------           -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="tiende ecomerce de tenis">
+    <meta name="keywords"
+        content="tenis, sneakers, jordan, adidas, yeezy, new balance, nike, dunk, sb dunk, the hype company, thc">
+    <meta name="author" content="Jorge Cantu, Alberto Davila, Victor Espinosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    -------------------       TITULO     ---------------------           -->
+
+    <title>The Hype Company</title>
+
+    <!--    -------------------       LINKS Y FONTS    ---------------------           -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/dist/sweetalert.css">
+    <link rel="shortcut icon" type="image/png" href="imgs/logo blanco.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taprom&display=swap" rel="stylesheet">
+
+    <!--    -------------------      JAVASCRIPT     ---------------------           -->
+
+    <script type="text/javascript" src="index&cart.js"></script>
+    <script src="/dist/sweetalert-dev.js"></script>
+    <script src="/dist/sweetalert.min.js"></script>
+
+    <!--    -------------------      ICONOS     ---------------------           -->
+    <script src="https://kit.fontawesome.com/628af34195.js" crossorigin="anonymous"></script>
+</head>
+
+<!--    -------------------       BODY     ---------------------           -->
+
+<body>
+
+    <!--    -------------------       HEADER CON LOGO    ---------------------           -->
+
+    <header>
+        <div id="inicio">
+            <a href="index.html"><img src="imgs/logo negro.png" alt="logo de la marca"></a>
+        </div>
+    </header>
+
+    <hr class="separador">
+    <h1 id="nike">PRODUCTOS AGREGADOS AL CARRO</h1>
+
+    <form class="formCart" action="mailto:carritonulo@carrito.com" method="post" enctype="text/plain" id="cesta">
+        <div class="tabla-carrito">
+            <div class="tabla-productos">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="td-th">CÓDIGO</th>
+                            <th class="td-th">MODELO</th>
+                            <th class="td-th">PRECIO</th>
+                            <th class="td-th">CANTIDAD</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <script type="text/javascript">visualizarcarrito();</script>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h5 class="h5p"><b>*Llena los siguientes campos antes de enviar o imprimir el ticket*</b></h5>
+        <br>
+
+        <div class="form-carrito">
+            <div class="formEnvio">
+                <label for=""><b>NOMBRE:</b></label>
+                <input type="text" name="nombre" id="nombre1" placeholder="Ingresa tu nombre" required>
+                <br>
+                <label for=""><b>APELLIDO:</b></label>
+                <input type="text" name="apellido" id="apellido1" placeholder="Ingresa tu apellido" required>
+                <br>
+                <label for=""><b>EMAIL:</b></label>
+                <input type="email" name="emil" id="email1" placeholder="Ingresa tu email" required>
+                <br>
+                <label for=""><b>CALLE:</b></label>
+                <input type="text" name="calle" id="calle1" placeholder="Calle" required>
+                <br>
+                <label for=""><b>COLONIA:</b></label>
+                <input type="text" name="colonia" id="colonia1" placeholder="Colonia" required>
+                <br>
+                <label for=""><b>CODIGO POSTAL:</b></label>
+                <input type="number" name="cp" id="cp1" placeholder="C.P." required>
+                <br>
+                <label for=""><b>TELEFONO:</b></label>
+                <input type="number" name="tel" id="tel1" placeholder="Ingresa tu telefono" required>
+                <br>
+    
+            </div>
+    
+            <div class="buttons-cart">
+                <div class="button">
+                    <input type="submit" value="Enviar" id="boton-enviar">
+                </div>
+        
+        
+                <div class="button-reset">
+                    <input type="button" value="Imprimir" id="boton-print" onclick="imprimir();">
+                    <input type="reset" value="Restablecer">
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <h5 class="h5p"><b>El pedido será colocado en la bandeja de salida de su programa de correo para ser enviado a un email inexistente llamado carritonulo@carrito.com</b></h5>
+
+    </form>
+
+
+    <br>
+
+
+    <!--    -------------------       FOOTER     ---------------------           -->
+
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="elemento">
+                <figure>
+                    <a href="#inicio"><img src="imgs/logo blanco.png" alt="logo de la marca"></a>
+                </figure>
+            </div>
+
+            <div class="elemento">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Tienda online de venta exclusiva de sneakers, ropa y accesorios.</p>
+                <p>Todos los productos publicados son nuevos y legitimos.</p>
+            </div>
+
+            <div class="elemento">
+                <h2>UBICACIÓN</h2>
+                <address>
+                    Ramiro II 3318,
+                    Camino Real, C.P. 67170,
+                    Guadalupe Nuevo Leon.
+                </address>
+            </div>
+
+            <div class="elemento">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/thypecompany/" target="blank" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.tiktok.com/@thypecompany?is_from_webapp=1&sender_device=pc" target="blank"
+                        class="fa-brands fa-tiktok"></a>
+                    <a href="https://www.facebook.com/TheHypeSneakers" target="blank"
+                        class="fa-brands fa-facebook-f"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grupo2">
+            <small>&copy; 2023 <b>The Hype Company</b> - Todos los derechos reservados.</small>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

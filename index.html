@@ -1,0 +1,864 @@
+<!--    -------------------       FORMATO FUENTE     ---------------------           -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!--    -------------------       ETIQUETAS META    ---------------------           -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="tiende ecomerce de tenis">
+    <meta name="keywords"
+        content="tenis, sneakers, jordan, adidas, yeezy, new balance, nike, dunk, sb dunk, the hype company, thc">
+    <meta name="author" content="Jorge Cantu, Alberto Davila, Victor Espinosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--    -------------------       TITULO     ---------------------           -->
+
+    <title>The Hype Company</title>
+
+    <!--    -------------------       LINKS Y FONTS    ---------------------           -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/dist/sweetalert.css">
+    <link rel="shortcut icon" type="image/png" href="imgs/logo blanco.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Taprom&display=swap" rel="stylesheet">
+
+    <!--    -------------------      JAVASCRIPT     ---------------------           -->
+
+    <script type="text/javascript" src="index&cart.js"></script>
+    <script src="/dist/sweetalert-dev.js"></script>
+    <script src="/dist/sweetalert.min.js"></script>
+
+
+    <!--    -------------------      ICONOS     ---------------------           -->
+
+    <script src="https://kit.fontawesome.com/628af34195.js" crossorigin="anonymous"></script>
+</head>
+
+<!--    -------------------       BODY     ---------------------           -->
+
+<body>
+
+    <!--    -------------------       HEADER CON LOGO    ---------------------           -->
+
+    <header>
+        <div id="inicio">
+            <a href="index.html"><img src="imgs/logo negro.png" alt="logo de la marca"></a>
+        </div>
+    </header>
+
+
+    <!--    -------------------       BARRA DE NAVEGACIÓN     ---------------------           -->
+
+    <div class="container-icon">
+        <a href="carrito.html" class="carritoicon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon-cart">
+                <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+            />
+            </svg>
+        </a>
+    </div>
+    <br>
+    <br>
+
+    <ul class="nav_inicio">
+        <li class="navegador"><a href="default.asp"><img src="imgs/icon-air-jordan.png" alt="icono de air jordan"
+                    width="90px" height="90px" class="icons-marcas"></a></li>
+        <li class="navegador"><a href="news.asp"><img src="imgs/icon-nike.png" alt="icono de nike" width="90px"
+                    height="90px" class="icons-marcas"></a></li>
+        <li class="navegador"><a href="contact.asp"><img src="imgs/icon-adidas.png" alt="icono de adidas" width="90px"
+                    height="90px" class="icons-marcas"></a></li>
+        <li class="navegador">
+            <a href="javascript:void(0)" class="dropbtn"><img src="imgs/icon-sale.png" alt="icono de oferta"></a>
+            <div class="dropdown-content">
+                <a href="#jordan">AIR JORDAN</a>
+                <a href="#nike">NIKE</a>
+                <a href="#adidas">ADIDAS</a>
+            </div>
+        </li>
+
+    </ul>
+
+    <br>
+
+    <!--    -------------------       VIDEO DE INDEX    ---------------------           -->
+
+    <div id="video-aj1">
+        <div class="slogan">
+            <h1>We are hype in every sense</h1>
+        </div>
+
+        <div>
+            <!--<video src="videos/Nike Jordan 1 Chicago Cinematic Shoe Commercial .mp4" loop autoplay muted width="600px" ></video>-->
+        </div>
+
+        <div class="slogan">
+            <h1>La escencia es exclusiva</h1>
+            <!--<audio src="audios/Mike WiLL MadeIt  23 ft Miley Cyrus Wiz Khalifa Juicy J .mp3" controls></audio>-->
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+
+    <!--    -------------------       AIR JORDAN     ---------------------           -->
+
+    <hr class="separador">
+    <h1 id="jordan">AIR JORDAN</h1>
+
+    <br>
+
+    <div class="contenedor-products">
+        <div class="product">
+            <figure>
+                <img alt="Jordan 1 Retro High OG Chicago Lost and Found 0"
+                    src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Images/Air-Jordan-1-Retro-High-OG-Chicago-Reimagined/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1665692308&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Jordan 1 Retro High OG Chicago Lost and Found</h2>
+                <p class="precio">$4,599</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="4599" name="precio" />
+                    <input type="hidden" value="Jordan 1 Retro High OG Chicago Lost and Found" name="modelo" />
+                    <input type="hidden" value="ID201" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+
+        <div class="product">
+            <figure>
+                <img alt="Jordan 1 Retro High 85 Black White (2023) 0"
+                    src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-85-Black-White-2023/Images/Air-Jordan-1-Retro-High-85-Black-White-2023/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1675765293&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Jordan 1 Retro High 85 Black White (2023)</h2>
+                <p class="precio">$4,599</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="4599" name="precio" />
+                    <input type="hidden" value="Jordan 1 Retro High 85 Black White (2023)" name="modelo" />
+                    <input type="hidden" value="ID456" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+
+        <div class="product">
+            <figure>
+                <img alt="Jordan 1 Retro High OG Taxi 0"
+                    src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Yellow-Toe/Images/Air-Jordan-1-Retro-High-OG-Yellow-Toe/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1659075277&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Jordan 1 Retro High OG Taxi</h2>
+                <p class="precio">$4,399</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="4399" name="precio" />
+                    <input type="hidden" value="Jordan 1 Retro High OG Taxi" name="modelo" />
+                    <input type="hidden" value="ID995" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Jordan 1 Retro High OG Patent Bred 0"
+                    src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-Bred-Patent/Images/Air-Jordan-1-Retro-High-OG-Bred-Patent/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1634062853&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Jordan 1 Retro High OG Patent Bred</h2>
+                <p class="precio">$3,899</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3899" name="precio" />
+                    <input type="hidden" value="Jordan 1 Retro High OG Patent Bred" name="modelo" />
+                    <input type="hidden" value="ID523" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Jordan 1 Retro High OG True Blue 0"
+                    src="https://images.stockx.com/360/Air-Jordan-1-Retro-High-OG-True-Blue/Images/Air-Jordan-1-Retro-High-OG-True-Blue/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1674030278&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Jordan 1 Retro High OG True Blue</h2>
+                <p class="precio">$4,399</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="4399" name="precio" />
+                    <input type="hidden" value="Jordan 1 Retro High OG True Blue" name="modelo" />
+                    <input type="hidden" value="ID024" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!--    -------------------       IFRAME     ---------------------           -->
+
+    <!--
+        <div class="iframe-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GbMBxy34_xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    -->
+
+    <!--    -------------------       NIKE     ---------------------           -->
+
+    <br>
+    <br>
+
+    <hr class="separador">
+    <h1 id="nike">NIKE</h1>
+
+    <br>
+
+    <div class="contenedor-products">
+        <div class="product">
+            <figure>
+                <img alt="Nike Dunk Low Retro White Black Panda (2021) 0"
+                    src="https://images.stockx.com/360/Nike-Dunk-Low-Retro-White-Black-2021/Images/Nike-Dunk-Low-Retro-White-Black-2021/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1644250003&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Nike Dunk Low Retro White Black Panda</h2>
+                <p class="precio">$2,599</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="2599" name="precio" />
+                    <input type="hidden" value="Nike Dunk Low Retro White Black Panda" name="modelo" />
+                    <input type="hidden" value="ID127" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Nike SB Dunk Low Pro ISO Orange Label Wolf Grey Gum 0"
+                    src="https://images.stockx.com/360/Nike-SB-Dunk-Low-Pro-ISO-Orange-Label-Grey-Gum/Images/Nike-SB-Dunk-Low-Pro-ISO-Orange-Label-Grey-Gum/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1676035345&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Nike SB Dunk Low Pro ISO Orange Label Wolf Grey Gum</h2>
+                <p class="precio">$2,899</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="2899" name="precio" />
+                    <input type="hidden" value="Nike SB Dunk Low Pro ISO Orange Label Wolf Grey Gum" name="modelo" />
+                    <input type="hidden" value="ID710" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Nike Dunk Low Essential Paisley Pack Pink (W) 0"
+                    src="https://images.stockx.com/360/Nike-Dunk-Low-Essential-Paisley-Pack-Pink-W/Images/Nike-Dunk-Low-Essential-Paisley-Pack-Pink-W/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1676730361&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Nike Dunk Low Essential Paisley Pack Pink (W)</h2>
+                <p class="precio">$2,799</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="2799" name="precio" />
+                    <input type="hidden" value="Nike Dunk Low Essential Paisley Pack Pink (W)" name="modelo" />
+                    <input type="hidden" value="ID597" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Nike Dunk Low Retro PRM Valentine's Day (2023) 0"
+                    src="https://images.stockx.com/360/Nike-Dunk-Low-Valentines-Day-2023/Images/Nike-Dunk-Low-Valentines-Day-2023/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1675265099&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Nike Dunk Low Retro PRM Valentine's Day (2023)</h2>
+                <p class="precio">$2,699</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="2699" name="precio" />
+                    <input type="hidden" value="Nike Dunk Low Retro PRM Valentine's Day (2023)" name="modelo" />
+                    <input type="hidden" value="ID881" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Nike SB Dunk Low Concepts Orange Lobster 0"
+                    src="https://images.stockx.com/360/Nike-SB-Dunk-Low-Concepts-Orange-Lobster/Images/Nike-SB-Dunk-Low-Concepts-Orange-Lobster/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1671577611&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Nike SB Dunk Low Concepts Orange Lobster</h2>
+                <p class="precio">$3,499</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="2499" name="precio" />
+                    <input type="hidden" value="Nike SB Dunk Low Concepts Orange Lobster" name="modelo" />
+                    <input type="hidden" value="ID601" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <br>
+    <br>
+
+
+    <!--    -------------------       IFRAME     ---------------------           -->
+
+    <!--
+        <div class="iframe-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bjFF6O-7dZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        -->
+
+    <br>
+    <br>
+
+    <!--    -------------------       ADIDAS     ---------------------           -->
+
+    <hr class="separador">
+    <h1 id="adidas">ADIDAS</h1>
+
+    <br>
+
+    <div class="contenedor-products">
+        <div class="product">
+            <figure>
+                <img alt="Adidas Forum Low Bad Bunny Back to School 0"
+                    src="https://images.stockx.com/360/adidas-Forum-Low-Bad-Bunny-Triple-Black/Images/adidas-Forum-Low-Bad-Bunny-Triple-Black/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1635605898&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Adidas Forum Low Bad Bunny Back to School</h2>
+                <p class="precio">$3,499</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3499" name="precio" />
+                    <input type="hidden" value="Adidas Forum Low Bad Bunny Back to School" name="modelo" />
+                    <input type="hidden" value="ID712" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Adidas Forum Low Bad Bunny Pink Easter Egg 0"
+                    src="https://images.stockx.com/360/adidas-Forum-Low-Bad-Bunny-Pink/Images/adidas-Forum-Low-Bad-Bunny-Pink/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1635341309&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Adidas Forum Low Bad Bunny Pink Easter Egg</h2>
+                <p class="precio">$3,499</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3499" name="precio" />
+                    <input type="hidden" value="Adidas Forum Low Bad Bunny Pink Easter Egg" name="modelo" />
+                    <input type="hidden" value="ID987" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Adidas Forum Low Bad Bunny OG 0"
+                    src="https://images.stockx.com/360/adidas-Forum-Low-Bad-Bunny/Images/adidas-Forum-Low-Bad-Bunny/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1635276861&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Adidas Forum Low Bad Bunny OG</h2>
+                <p class="precio">$3,499</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3499" name="precio" />
+                    <input type="hidden" value="Adidas Forum Low Bad Bunny OG" name="modelo" />
+                    <input type="hidden" value="ID055" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Adidas Forum Buckle Low Bad Bunny Last Forum 0"
+                    src="https://images.stockx.com/360/adidas-Forum-Buckle-Low-White/Images/adidas-Forum-Buckle-Low-White/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1670926757&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Adidas Forum Buckle Low Bad Bunny Last Forum</h2>
+                <p class="precio">$3,999</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3999" name="precio" />
+                    <input type="hidden" value="Adidas Forum Buckle Low Bad Bunny Last Forum" name="modelo" />
+                    <input type="hidden" value="ID522" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+        <div class="product">
+            <figure>
+                <img alt="Adidas Forum Buckle Low Bad Bunny Blue Tint 0"
+                    src="https://images.stockx.com/360/adidas-Forum-Buckle-Low-Bad-Bunny-Blue-Tint-GS/Images/adidas-Forum-Buckle-Low-Bad-Bunny-Blue-Tint-GS/Lv2/img01.jpg?fm=webp&amp;auto=compress&amp;w=576&amp;dpr=2&amp;updated_at=1666596357&amp;h=384&amp;q=75"
+                    class="snkrs">
+            </figure>
+            <div class="info-product">
+                <h2>Adidas Forum Buckle Low Bad Bunny Blue Tint</h2>
+                <p class="precio">$3,999</p>
+            </div>
+
+            <div class="btncarro">
+                <b>Indique cantidad</b>
+                <form action="" name="order" id="order">
+                    <input id="inputs" size="2" value="1" name="numpedido" />
+                    <input type="button" value="Agregar" onclick="meterencarro(this.form)">
+                    <input type="hidden" value="3999" name="precio" />
+                    <input type="hidden" value="Adidas Forum Buckle Low Bad Bunny Blue Tint" name="modelo" />
+                    <input type="hidden" value="ID776" name="referencia" />
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--    -------------------       IFRAME     ---------------------           -->
+
+    <!--
+        <div class="iframe-videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dLqChSvIgs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        -->
+
+
+    <!--    -------------------       TABLA     ---------------------           -->
+    <!-- 
+    <div class="tabla-tallas">
+
+        <div class="tabla-hombre">
+            <h3>TALLAS DE HOMBRE</h3><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="td-th">MX</th>
+                        <th class="td-th">US</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-th">25.5</td>
+                        <td class="td-th">7.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">26</td>
+                        <td class="td-th">8</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">26.5</td>
+                        <td class="td-th">8.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">27</td>
+                        <td class="td-th">9</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">27.5</td>
+                        <td class="td-th">9.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">28</td>
+                        <td class="td-th">10</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">28.5</td>
+                        <td class="td-th">10.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">29</td>
+                        <td class="td-th">11</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">29.5</td>
+                        <td class="td-th">11.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">30</td>
+                        <td class="td-th">12</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">30.5</td>
+                        <td class="td-th">12.5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="tabla-mujer">
+            <h3>TALLAS DE MUJER</h3><br>
+            <table>
+                <thead>
+                    <tr class="tr-table">
+                        <th class="td-th">MX</th>
+                        <th class="td-th">US</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="td-th">22</td>
+                        <td class="td-th">5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">22.5</td>
+                        <td class="td-th">5.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">23</td>
+                        <td class="td-th">6</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">23.5</td>
+                        <td class="td-th">6.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">24</td>
+                        <td class="td-th">7</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">24.5</td>
+                        <td class="td-th">7.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">25</td>
+                        <td class="td-th">8</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">25.5</td>
+                        <td class="td-th">8.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">26</td>
+                        <td class="td-th">9</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">26.5</td>
+                        <td class="td-th">9.5</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">27</td>
+                        <td class="td-th">10</td>
+                    </tr>
+                    <tr>
+                        <td class="td-th">27.5</td>
+                        <td class="td-th">10.5</td>
+                    </tr>
+            </table>
+        </div>
+
+    </div>
+    -->
+
+
+
+
+    <!--    -------------------       FORMULARIO     ---------------------           -->
+
+    <!--
+    <div class="form">
+        <form class="form01" action="mailto: l20480521@nuevoleon.tecnm.mx" method="post">
+
+            <h2>REGÍSTRATE</h2>
+            
+            <div class="llenado-1">
+                <div class="grupo-form-1">
+                    <label for=""><b>NOMBRE</b></label><br>
+                    <input type="text" name="nombre-label" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+
+                <div class="grupo-form-1">
+                    <label for=""><b>EDAD</b></label><br>
+                    <input type="number" name="edad-label" id="edad" placeholder="Ingresa tu edad" required min="10"
+                        max="99">
+                </div>
+                
+                <div class="grupo-form-1">
+                    <p><b>SEXO</b></p>
+                    <label for="#">
+                        <select name="sexo-option" id="sexo">
+                            <option disabled selected value>Selecciona tu sexo</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="grupo-form-1">
+                    <label for=""><b>EMAIL</b></label><br>
+                    <input type="email" name="email-label" id="email" placeholder="Ingresa tu email" required>
+                </div>
+            </div>
+
+
+            <div class="llenado-2">
+
+                <div class="grupo-form-2">
+                    <p><b>SELECCIONA TU TALLA</b></p><br>
+                    
+                    <label for="">
+                        <input type="radio" name="opccion" id="23-23.5" required>
+                        <b>23 - 23.5 mx</b>
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="24-24.5" required>
+                        <b>24 - 24.5 mx</b>
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="25-25.5" required>
+                        <b>25 - 25.5 mx</b>
+                    </label><br>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="26-26.5" required>
+                        <b>26 - 26.5 mx</b>
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="27-27.5" required>
+                        <b>27 - 27.5 mx</b>
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="28-28.5" required>
+                        <b>28 - 28.5 mx</b>
+                    </label><br>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="29-29.5" required>
+                        <b>29 - 29.5 mx</b>
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="opccion" id="30-30.5" required>
+                        <b>30 - 30.5 mx</b>
+                    </label>
+                </div>
+
+                <div class="grupo-form-3">
+                    <p><b>MARCAS DE TU PREFERENCIA</b></p><br>
+                    
+                    <label for="">
+                        <input type="checkbox" name="nike" id="seleccion" required>
+                        <b>Nike</b>
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="airjordan" id="seleccion">
+                        <b>Air Jordan</b>
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="adidas" id="seleccion">
+                        <b>Adidas</b>
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="yeezy" id="seleccion">
+                        <b>Yeezy</b>
+                    </label><br>
+
+                    <label for="">
+                        <input type="checkbox" name="newbalance" id="seleccion">
+                        <b>New Balance</b>
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" name="vans" id="seleccion">
+                        <b>Vans</b>
+                    </label>
+                </div>
+
+                <h2 id="h2textarea">Mándanos tu opinion</h2>
+
+                <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Escribe tu opinion"></textarea>
+
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+
+            <div class="button-reset">
+                <input type="reset" value="Restablecer">
+            </div>
+
+        </form>
+    </div>
+    -->
+    <!--    -------------------       FOOTER     ---------------------           -->
+
+    <footer class="pie-pagina">
+        <div class="grupo1">
+            <div class="elemento">
+                <figure>
+                    <a href="#inicio"><img src="imgs/logo blanco.png" alt="logo de la marca"></a>
+                </figure>
+            </div>
+
+            <div class="elemento">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Tienda online de venta exclusiva de sneakers, ropa y accesorios.</p>
+                <p>Todos los productos publicados son nuevos y legitimos.</p>
+            </div>
+
+            <div class="elemento">
+                <h2>UBICACIÓN</h2>
+                <address>
+                    Ramiro II 3318,
+                    Camino Real, C.P. 67170,
+                    Guadalupe Nuevo Leon.
+                </address>
+            </div>
+
+            <div class="elemento">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/thypecompany/" target="blank" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.tiktok.com/@thypecompany?is_from_webapp=1&sender_device=pc" target="blank"
+                        class="fa-brands fa-tiktok"></a>
+                    <a href="https://www.facebook.com/TheHypeSneakers" target="blank"
+                        class="fa-brands fa-facebook-f"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grupo2">
+            <small>&copy; 2023 <b>The Hype Company</b> - Todos los derechos reservados.</small>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
